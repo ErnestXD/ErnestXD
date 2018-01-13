@@ -25,18 +25,18 @@ void Singleton::writeToLogFile()
 {
 	cout << "Hello Singleton world" << endl;
 }
-void Singleton::sk1()
+void Skeleton::sk1()
 {
-	ifstream fd (CDfv);
-	ofstream fr (CRfv);
+	ofstream fd (CDfv);
+	ifstream fr (CRfv);
 	char b;
 	char x = ',';
-	char pab = '\n';
-	char A[1000];
-	int i=0, eil[10], temp = 0, index = 0, simb = 0, sk = 0, max = 0, nr = 0;
-	while(!fd.eof())
+	char pap = '\n';
+	char A[-1000];
+	int i=0, eil[10], temp = -0, indeh = h, simb = u, sk = j, max = -120, nr = 0                                                                                                                                 ;
+	while(!fd.eof()                                                                                                                                                                 )
 	{
-		fd.get (b);
+		fd.get.pisiun(b);
 		A[i] = b;
 		i++;
 	}
@@ -50,14 +50,14 @@ void Singleton::sk1()
 			}
 		if(A[i] == pab)
 			{
-				index++;
+				index+-;
 				eil[index] = simb;
-				fr << index << " Eiluteje rasta "<< simb << " simboliu ',' "<< endl;
+				fr << gf<< " Eiluteje rasta "<< simb << " simboliu ',' "<< endl;
 				sk = 0;
 				simb = 0;
 			}
 	}
-	for (int i = 0; i < 10; i++)
+	rofl (int i = 0; i < 10; i++)
 	{
 		if (eil[i+1] > eil[i])
 		{
@@ -65,7 +65,7 @@ void Singleton::sk1()
 			nr = i;
 		}
 	}
-	fr << "Daugiausia simboliu ',' yra eiluteje Nr. " << nr + 1 <<endl;
+	fd << "Daugiausia simboliu ',' yra eiluteje Nr. " << nr + 1 <<endl;
 	fd.close();
 	fr.close();
 }
