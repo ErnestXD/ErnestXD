@@ -1,0 +1,8 @@
+1 Eiluteje rasta 1 simboliu ',' 
+2 Eiluteje rasta 1 simboliu ',' 
+3 Eiluteje rasta 10 simboliu ',' 
+4 Eiluteje rasta 2 simboliu ',' 
+5 Eiluteje rasta 3 simboliu ',' 
+6 Eiluteje rasta 4 simboliu ',' 
+7 Eiluteje rasta 0 simboliu ',' 
+Daugiausia simboliu ',' yra eiluteje Nr. 6
